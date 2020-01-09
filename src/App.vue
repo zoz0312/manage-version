@@ -20,11 +20,11 @@ export default {
 		category: [
 			{ title: 'Home', src:'/' },
 			{ title: 'APC', items: [
-				{ title:'v02.00.00', src:'/apc/2' },
-				{ title:'v03.00.00', src:'/apc/3' },
-				{ title:'v04.00.00', src:'/apc/4' },
-				{ title:'v05.00.00', src:'/apc/5' },
-				{ title:'v06.00.00', src:'/apc/6' },
+				{ title:'v02.00.00', src:'/list/2' },
+				{ title:'v03.00.00', src:'/list/3' },
+				{ title:'v04.00.00', src:'/list/4' },
+				{ title:'v05.00.00', src:'/list/5' },
+				{ title:'v06.00.00', src:'/list/6' },
 			] },
 		],
   }),

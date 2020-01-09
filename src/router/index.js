@@ -19,8 +19,8 @@ const routes = [{
   },{
 		path: '/list/:id',
     name: 'list',
-    component: List
-  },
+    component: List,
+  }
 ]
 
 const router = new VueRouter({
