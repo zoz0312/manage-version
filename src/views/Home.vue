@@ -1,6 +1,5 @@
 <template>
 	<v-app>
-    <Navigation v-bind:propsdata='category'/>
     <HelloWorld/>
     <ListItem v-bind:propsdata='item'/>
     <PostCard/>
@@ -9,7 +8,6 @@
 
 <script>
 // @ is an alias to /src
-import Navigation from '@/components/Navigation.vue'
 import HelloWorld from '@/components/HelloWorld.vue'
 import ListItem from '@/components/ListItem.vue'
 import PostCard from '@/components/PostCard.vue'
@@ -28,16 +26,8 @@ export default {
 			attach_name: '18_tbl_insert.sql',
 			date: '20/01/06'
 		},
-		category: [
-			{ title: 'Dashboard', items: [
-				{ title:'title2222' }
-			] },
-			{ title: 'Photos', items: [] },
-			{ title: 'About', items: [] },
-		],
 	}),
   components: {
-		Navigation,
     HelloWorld,
 		ListItem,
 		PostCard,
