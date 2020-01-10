@@ -25,6 +25,9 @@ export default {
 			date: '20/01/06'
 		},
   }),
+	created() {
+		this.updateId();
+	},
 	watch: {
 		'$route':'updateId'
 	},
