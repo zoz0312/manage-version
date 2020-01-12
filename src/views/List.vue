@@ -1,6 +1,8 @@
 <template>
 	<v-app>
-		{{ id }}
+		<span> depth1 :{{ depth1 }} </span>
+		<span> depth2 :{{ depth2 }} </span>
+		<span> depth3 :{{ depth3 }} </span>
 
     <ListItem v-bind:propsdata='item'/>
 	</v-app>
@@ -12,7 +14,9 @@ import ListItem from '@/components/ListItem.vue'
 export default {
   name: 'list',
   data: () => ({
-    id: 0,
+    depth1: 0,
+    depth2: 0,
+    depth3: 0,
 		item: {
 			id: 0,
 			category: 'APC',
@@ -33,7 +37,9 @@ export default {
 	},
 	methods: {
 		updateId () {
-			this.id = this.$route.params.id;
+			this.depth1 = this.$route.params.depth1;
+			this.depth2 = this.$route.params.depth2;
+			this.depth3 = this.$route.params.depth3;
 		}
 	},
 	components: {

@@ -20,12 +20,28 @@ export default {
 		category: [
 			{ title: 'Home', src:'/' },
 			{ title: 'APC', items: [
-				{ title:'v02.00.00', src:'/list/2' },
-				{ title:'v03.00.00', src:'/list/3' },
-				{ title:'v04.00.00', src:'/list/4' },
-				{ title:'v05.00.00', src:'/list/5' },
-				{ title:'v06.00.00', src:'/list/6' },
-			] },
+				{ title:'v02.00.00', items: [
+					{ title: 'v02.00.00', src:'/list/apc/1/1' },
+					{ title: 'v02.00.02', src:'/list/apc/1/2' },
+					{ title: 'v02.00.04', src:'/list/apc/1/3' },
+				]},
+				{ title:'v03.00.00', items: [
+					{ title: 'v03.00.02', src:'/list/apc/2/1' },
+					{ title: 'v03.00.04', src:'/list/apc/2/2' },
+				]},
+				{ title:'v04.00.00', items:[
+					{ title: 'v04.00.02', src:'/list/apc/3/1' },
+					{ title: 'v04.00.04', src:'/list/apc/3/2' },
+				]},
+				{ title:'v05.00.00', items:[
+					{ title: 'v05.00.02', src:'/list/apc/4/1' },
+					{ title: 'v05.00.04', src:'/list/apc/4/2' },
+				]},
+				{ title:'v06.00.00', items:[
+					{ title: 'v06.00.02', src:'/list/apc/5/1' },
+					{ title: 'v06.00.04', src:'/list/apc/5/2' },
+				]},
+			]},
 		],
   }),
 	components: {
