@@ -2,6 +2,7 @@
   <v-app>
 		<v-row>
 			<v-col cols='3' class='pt-0'>
+				<v-btn class='btn-add' color="primary" to='/form'>추가하기</v-btn>
 				<Navigation v-bind:propsdata='category'/>
 			</v-col>
 			<v-col cols='9'>
@@ -44,10 +45,19 @@ export default {
 			]},
 		],
   }),
+	methods:{
+	},
 	components: {
 		Navigation,
+	},
+	created(){
 	}
 };
 </script>
 <style scope>
+.btn-add {
+	width: 100%;
+	height: 8% !important;
+	max-width: 256px;
+}
 </style>

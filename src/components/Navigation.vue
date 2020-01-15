@@ -1,6 +1,6 @@
 <template>
 	<v-card
-		height="100%"
+		height="90%"
 		width="256">
 			<v-list>
 				<div v-for='item in propsdata' :key='item.title'>
